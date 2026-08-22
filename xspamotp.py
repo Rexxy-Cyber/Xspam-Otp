@@ -472,7 +472,7 @@ def banner():
     os.system("cls" if os.name == "nt" else "clear")
     print(f"{LINE}╭{'─' * 62}╮{Style.RESET_ALL}")
     print(f"{LINE}│{' ' * 62}{LINE}│{Style.RESET_ALL}")
-print(f"{LINE}│{TXT}  ██╗  ██╗███████╗██████╗  █████╗ ███╗   ███╗     ██████╗ ████████╗██████╗  {TXT}{LINE}│{Style.RESET_ALL}")
+    print(f"{LINE}│{TXT}  ██╗  ██╗███████╗██████╗  █████╗ ███╗   ███╗     ██████╗ ████████╗██████╗  {TXT}{LINE}│{Style.RESET_ALL}")
     print(f"{LINE}│{TXT}  ╚██╗██╔╝██╔════╝██╔══██╗██╔══██╗████╗ ████║    ██╔═══██╗╚══██╔══╝██╔══██╗ {TXT}{LINE}│{Style.RESET_ALL}")
     print(f"{LINE}│{TXT}   ╚███╔╝ ███████╗██████╔╝███████║██╔████╔██║    ██║   ██║   ██║   ██████╔╝ {TXT}{LINE}│{Style.RESET_ALL}")
     print(f"{LINE}│{TXT}   ██╔██╗ ╚════██║██╔═══╝ ██╔══██║██║╚██╔╝██║    ██║   ██║   ██║   ██╔═══╝  {TXT}{LINE}│{Style.RESET_ALL}")
